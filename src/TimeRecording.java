@@ -24,6 +24,7 @@ public class TimeRecording {
         userNames.put(76, "Paul King");
         userNames.put(273, "Megan Alice");
         userNames.put(9, "Sam Smith");
+        userNames.put(111, "Antoni Hook");
 
         while (true) {
             // Pobierz numer ID od urzytkownika
@@ -67,7 +68,7 @@ public class TimeRecording {
     private String getCurrentTimestamp() {
         Date date = new Date();
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyy HH:mm:ss");
-                return dateFormat.format(date);
+        return dateFormat.format(date);
     }
 
     private boolean isValidUserId(int userId, int[] validUserIds) {
@@ -80,7 +81,7 @@ public class TimeRecording {
     }
 
     private String getMessageForUserBasedOnTime(int hourOfDay) {
-        if(hourOfDay < 12) {
+        if(hourOfDay >= 5 && hourOfDay < 14.30) {
             return "ENTRY";
         } else {
             return "EXIT";
@@ -103,7 +104,7 @@ public class TimeRecording {
 
     private void saveDateToFile(int userId, String userName, String entryDate, String greetingMessage) {
         try(BufferedWriter writer = new BufferedWriter(new FileWriter("output.txt",true))) {
-            writer.write("User ID: " + userId + " | Name: " + userName + " | Entry Date: " + entryDate + " | Greeting: " + greetingMessage + "\n");
+            writer.write("User ID: " + userId + " | Name: " + userName + " | Entry Date: " + entryDate + " | Description: " + greetingMessage + "\n");
         } catch (IOException e) {
             System.out.println("ERROR");
         }
