@@ -1,0 +1,7 @@
+Job Card Number: 233322 | Time Start: 1708887108788 | Time Stop: 1708887118209 | Time: 9421
+Job Card Number: 32323 | Time Start: 19 | Time Stop: 20 | Time: 1
+Job Card Number: 12 | Time Start: 9 | Time Stop: 9 | Time: 0
+Job Card Number: 1233 | Time Start: 10 | Time Stop: 10 | Time: 0
+Job Card Number: 32323 | Time Start: 1708889114702 | Time Stop: 1708889119121 | Time: 4419
+Job Card Number: 23 | Time Start: 1708889302202 | Time Stop: 1708889310609 | Time: 8407 | TIME: 0
+Job Card Number: 123 | Time Start: 1708889349180 | Time Stop: 1708889358230 | Time: 9050 | TIME: 9
