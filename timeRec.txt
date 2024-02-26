@@ -5,3 +5,6 @@ Job Card Number: 1233 | Time Start: 10 | Time Stop: 10 | Time: 0
 Job Card Number: 32323 | Time Start: 1708889114702 | Time Stop: 1708889119121 | Time: 4419
 Job Card Number: 23 | Time Start: 1708889302202 | Time Stop: 1708889310609 | Time: 8407 | TIME: 0
 Job Card Number: 123 | Time Start: 1708889349180 | Time Stop: 1708889358230 | Time: 9050 | TIME: 9
+Job Card Number: 1212 | Time Start: 1708974324691 | Time Stop: 1708974327691 | Time: 3000 | TIME: 3
+Job Card Number: 2323 | Time Start: 1708974343542 | Time Stop: 1708974349192 | Time: 5650 | TIME: 5
+Job Card Number: 1212 | Time Start: 1708974438577 | Time Stop: 1708974445081 | Time: 6504 | TIME: 6 second
