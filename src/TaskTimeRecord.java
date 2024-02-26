@@ -1,10 +1,6 @@
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Scanner;
 
 public class TaskTimeRecord {
@@ -13,6 +9,8 @@ public class TaskTimeRecord {
         System.out.println("Welcome!");
 
         int[] cardNumber = {1212, 2323, 3434, 4545, 2222, 3333};
+
+
 
         while (true) {
             System.out.println("Entry your Job Card number or 'exit','end' to close program.");
