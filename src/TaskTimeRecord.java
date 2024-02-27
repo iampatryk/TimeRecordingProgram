@@ -8,9 +8,7 @@ public class TaskTimeRecord {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Welcome!");
 
-        int[] cardNumber = {1212, 2323, 3434, 4545, 2222, 3333};
-
-
+        int[] cardNumber = {1212, 2323, 3434, 4545, 2222, 3333, 4444};
 
         while (true) {
             System.out.println("Entry your Job Card number or 'exit','end' to close program.");
